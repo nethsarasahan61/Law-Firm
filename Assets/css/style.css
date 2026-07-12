@@ -3,3 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #a9927d;
+}
+.nav-bar{
+    display: flex;
+    background-color: #22333b;
+    height: 70px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-bar a{
+    color: #f2f4f3;
+    background-color: #5e503f;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 8px;
+    border: solid #22333b 3px;
+    transition: .4s;
+}
+.nav-bar a:hover{
+    color: #f2f4f3;
+    background-color: #22333b;    
+    border: solid #5e503f 3px;
+    transform: scale(1.2);
+    transition: .4s;
+}
