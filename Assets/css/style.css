@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #a9927d;
+    background-color: #CCBCAF;
 }
 main{
     padding-top: 50px;
@@ -47,4 +47,25 @@ main{
     width: 1500px;
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
+}
+.how-we-work{
+    display: flex;    
+    justify-content: space-around;    
+    flex-wrap: wrap;
+    align-items: center;    
+    text-align: center;
+}
+.how-we-work-p h3{
+    color: #f2f4f37c;
+    background-color: #22333b;
+    border-radius: 8px;
+    padding: 4px 5px 4px 5px;
+    margin-bottom: 25px;
+}
+.p1{
+    max-width: 400px;
+    height: 285px;
+    background-color: #a9927d;
+    border-radius: 8px;
+    padding: 20px;
 }
