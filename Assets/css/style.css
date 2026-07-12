@@ -6,6 +6,9 @@
 body{
     background-color: #a9927d;
 }
+main{
+    padding-top: 50px;
+}
 .nav-bar{
     display: flex;
     background-color: #22333b;
@@ -29,4 +32,19 @@ body{
     border: solid #5e503f 3px;
     transform: scale(1.2);
     transition: .4s;
+}
+.intro{
+    display: flex;    
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.intro-h2{
+    background-color: #f2f4f3;
+    padding: 20px;
+    border-radius: 8px;
+    width: 1500px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
 }
