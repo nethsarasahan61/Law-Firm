@@ -6,7 +6,7 @@
 body{
     background-color: #CCBCAF;
 }
-main{
+.main-1{
     padding-top: 50px;
 }
 .nav-bar{
@@ -67,5 +67,25 @@ main{
     height: 285px;
     background-color: #a9927d;
     border-radius: 8px;
+    padding: 20px;
+}
+footer{
+    color: #f2f4f3;
+    margin-top: 140px;
+    background-color: #5e503f;
+    flex-wrap: wrap;
+}
+footer .cr-text{    
+    padding: 5px;
+    text-align: center;
+}
+.oh-and-sr{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sr{
+    width: 50%;
+    min-width: 300px;
+    text-align: center;
     padding: 20px;
 }
