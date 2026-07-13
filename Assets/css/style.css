@@ -347,4 +347,11 @@ select{
     padding: 5px 10px 5px 10px;
     color: #f2f4f3;
     border: 2px solid #1c3f52;
+    transition: .4s;
+}
+.f-btn:hover{
+    color: #1c3f52;
+    background-color: #f2f4f3;
+    border: 2px solid #f2f4f3;
+    transition: .4s;
 }
