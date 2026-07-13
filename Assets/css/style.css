@@ -269,3 +269,26 @@ img{
     border: 2px solid #f2f4f3;    
     transition: .4s;
 }
+.team{
+    margin: auto;
+    text-align: center;
+}
+.team-h4{
+    margin: auto;
+    text-align: center;
+}
+.team-d{
+    margin-top: 19px;
+}
+.norm-1{
+    height: 640px;
+}
+.bn-para{
+    background-color: #f2f4f3;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+    width: 1500px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 25px;
+}
